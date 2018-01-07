@@ -17,6 +17,7 @@ struct EnvOK {
     ok: String,
 }
 
+#[cfg(test)]
 mod tests {
     use ::*;
     use dotenv;
