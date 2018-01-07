@@ -1,3 +1,12 @@
+#![deny(missing_docs)]
+#![deny(warnings)]
+#![deny(missing_debug_implementations)]
+
+//! # pwnpwnd
+//! 
+//! pwnpwnd is a fast ctf competition envrionment library.
+//!
+
 extern crate dotenv;
 extern crate envy;
 #[macro_use]
@@ -8,7 +17,6 @@ struct EnvOK {
     ok: String,
 }
 
-#[cfg(test)]
 mod tests {
     use ::*;
     use dotenv;
